@@ -1,0 +1,35 @@
+body {
+  background: var(--disney-bg-colour-linear);
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--white);
+}
+
+.container {
+  margin: 30px 70px;
+}
+
+.container img {
+  inline-size: 125px;
+  block-size: 69px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.disclaimer {
+  margin-block: 80px;
+  line-height: 200%;
+}
+
+.start-button {
+  color: var(--black);
+  background-color: #fff;
+  padding: 23px 63px;
+  border-radius: 8px;
+  font-weight: 600;
+}
