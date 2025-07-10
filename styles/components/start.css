@@ -1,3 +1,5 @@
+@import '/styles/style.css';
+
 body {
   background: var(--disney-bg-colour-linear);
   background-repeat: no-repeat;

@@ -1,0 +1,79 @@
+@import '/styles/style.css';
+
+body {
+  height: 100vh;
+  background-image: url(/assets/images/hero/hero-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-in-button {
+  padding: 11px 13px;
+  background-color: var(--black);
+  font-size: 12px;
+  border: 1px solid var(--white);
+  color: var(--white);
+  inline-size: 75px;
+  block-size: 40px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 270px;
+}
+
+.text-container h1 {
+  font-size: 32px;
+  margin-block-end: 17px;
+}
+
+.price-information {
+  letter-spacing: 0.02rem;
+  font-size: 17px;
+  margin-block-end: 15px;
+}
+
+.text-container form {
+  display: flex;
+  margin-block-end: 20px;
+}
+
+.text-container input {
+  padding: 12px 213px 10px 12px;
+  border: none;
+  background-color: var(--grey);
+  font-size: 14px;
+  border-radius: 3px 0 0 3px;
+}
+
+.text-container input[type="email"] {
+  color: var(--white);
+}
+
+.text-container a {
+  padding: 12px 40px;
+  border: none;
+  background-color: var(--disney-plus-default);
+  color: var(--black);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.promotion {
+  color: var(--grey-light);
+  margin-block-end: 21px;
+}
+
+.subscription {
+  font-size: 12px;
+}
